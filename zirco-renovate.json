@@ -5,7 +5,7 @@
   "major": { "dependencyDashboardApproval": true },
   "npm": {
     "packageRules": [
-      { "matchPackagePatterns": ["@zirco-lang"], "groupName": "@zirco-lang monorepo" }
+      { "matchPackagePatterns": ["@zirco-lang"], "groupName": "zirco-lang monorepo" }
     ]
   }
 }
