@@ -2,5 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "rangeStragegy": "bump",
-  "major": { "dependencyDashboardApproval": true }
+  "major": { "dependencyDashboardApproval": true },
+  "npm": {
+    "packageRules": [
+      { "matchPackagePatterns": ["@zirco-lang"], "groupName": "@zirco-lang monorepo"
+    ]
+  }
 }
